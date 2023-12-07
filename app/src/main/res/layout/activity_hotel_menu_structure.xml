@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hotelLayout"
+    android:layout_width="match_parent"
+    android:layout_height="320dp">
+    <!-- Hotel Image -->
+
+    <!-- Hotel Name -->
+
+    <!-- Hotel Address -->
+
+    <!-- PriceNight -->
+
+    <!-- Create space between items -->
+
+    <!-- Separator Line -->
+
+    <ImageView
+        android:id="@+id/hotelPicture"
+        android:layout_width="336dp"
+        android:layout_height="165dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/hotelAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_below="@+id/hotelName"
+        android:layout_toEndOf="@+id/hotelPicture"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMoreDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotelName"
+        app:layout_constraintVertical_bias="0.45"
+        tools:text="Address"></TextView>
+
+    <TextView
+        android:id="@+id/hotelPriceNight"
+        android:layout_width="113dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/hotelAddress"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@+id/hotelPicture"
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toEndOf="@+id/btnMoreDetails"
+        app:layout_constraintTop_toBottomOf="@+id/hotelPicture"
+        app:layout_constraintVertical_bias="0.719"
+        tools:text="hotelPriceNight"></TextView>
+
+    <Button
+        android:id="@+id/btnMoreDetails"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/hotelPriceNight"
+        android:layout_toEndOf="@+id/hotelPicture"
+        android:backgroundTint="#367BE2"
+        android:text="More Details"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/hotelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/hotelPicture"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotelPicture"
+        tools:text="Name"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity2">
+
+
+        <Button
+            android:id="@+id/selectR2"
+            android:layout_width="143dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#367BE2"
+            android:text="Select Room"
+            android:textColorHighlight="#367BE2"
+            android:textColorHint="@color/design_default_color_error"
+            android:textColorLink="@color/design_default_color_on_secondary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.839"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtRoomType2"
+            app:layout_constraintVertical_bias="0.0"
+            app:rippleColor="#3F51B5" />
+
+        <TextView
+            android:id="@+id/txtNumPeople2"
+            android:layout_width="107dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/button"
+            app:layout_constraintHorizontal_bias="0.383"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtRoomType2" />
+
+        <TextView
+            android:id="@+id/txtRoomType2"
+            android:layout_width="303dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.379"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/txtRoomSize2"
+            android:layout_width="109dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNumPeople" />
+
+        <Button
+            android:id="@+id/selectR1"
+            android:layout_width="143dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#367BE2"
+            android:text="Select Room"
+            android:textColorHighlight="#367BE2"
+            android:textColorHint="@color/design_default_color_error"
+            android:textColorLink="@color/design_default_color_on_secondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.839"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtRoomType"
+            app:rippleColor="#3F51B5" />
+
+        <TextView
+            android:id="@+id/txtNumPeople"
+            android:layout_width="107dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/button"
+            app:layout_constraintHorizontal_bias="0.391"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtRoomType" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="327dp"
+            android:layout_height="164dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/room_image"
+            tools:layout_editor_absoluteY="75dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="327dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtRoomSize2"
+            app:srcCompat="@drawable/room_imagetwo" />
+
+        <TextView
+            android:id="@+id/txtRoomType"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/txtRoomSize3"
+            android:layout_width="109dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="52dp"
+            android:text="TextView"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNumPeople2"
+            app:layout_constraintVertical_bias="0.928" />
+
+        <ImageView
+            android:id="@+id/btngoBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/blackarrow" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

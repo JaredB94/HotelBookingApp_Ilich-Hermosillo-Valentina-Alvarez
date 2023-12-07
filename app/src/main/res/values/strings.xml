@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hotel Booking App</string>
+    <string name="SelectDates">SelectDates</string>
+    <string name="SelectHotel">SelectHotel</string>
+    <string name="Payment">Payment</string>
+    <string name="LogOut">LogOut</string>
+</resources>
